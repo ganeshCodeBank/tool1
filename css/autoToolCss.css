@@ -1,0 +1,503 @@
+.wrapper{
+	overflow:hidden;
+  height: 753px;
+}
+body{
+
+}
+.header{
+	width: 100%;
+    height: 60px;
+    background: #04173b;
+}
+.logo{
+	    width: 5%;
+    float: left;
+}
+.logo:hover {
+  transform: scale(1.1); 
+} 
+.name{
+width: 14%;
+    float: left;
+    height: 41px;
+    border: 2px #0a6270;
+    margin-top: 10px;
+    background: #1c8bea3b;
+    border-radius: 2px;
+}
+.nameText{
+	color: #93cdbaeb;
+    font-size: 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+.drop1{
+	margin-left: 550px;
+    width: 10%;
+    float: left;
+    height: 30px;	
+    margin-top: 10px;
+}
+.dropvalue{
+	    border: 2px solid #0a6270;
+    width: 125px;
+    height: 30px;
+    color: #85b4a7e6;
+}
+
+.dropbtn {
+        background-color: #669499;
+    color: #08fcfced;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    font-family: monospace;
+    width: 150px;
+    margin: 10px;
+    border-radius: 50px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.dropdown {
+         position: relative;
+    display: inline-block;
+    margin-left: 1025px;
+}
+
+.dropdown-content {
+     display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    margin-left: 9px;
+    z-index: 1;
+    margin-top: -6px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown1{
+	position: relative;
+    display: inline-block;
+    float: left;
+    width: 5%;
+    margin-left: 830px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown1:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #4d777c;
+}
+
+.dropdown1:hover .dropbtn {
+  background-color: #4d777c;
+}
+
+.toolBody{
+width: 100%;
+    height: auto;
+}
+.toolmenu{
+	width: 5%;
+    background: #04173b;
+    height: 693px;
+    float: left;
+}
+.dashboardIcon{
+	  color: cadetblue;
+    font-size: 35px;
+    margin: 20px;  
+}
+.dash{
+	height: 80px;
+}
+.dash:active{
+    background-color: honeydew;
+     border-color: #c8c8ff;
+}
+
+.dash:hover {
+  transform: scale(1.2); 
+}
+.dashtext{
+	    color: red;
+    font-size: 12px;
+    font-family: emoji;
+    margin: 0px 9px;
+    margin-top: -13px;
+}
+.report{
+	height: 80px;
+}
+.report:hover {
+  transform: scale(1.2); 
+}
+.report:active{
+    background-color: honeydew;
+     border-color: #c8c8ff;
+}
+.reportIcon{
+	    color: cadetblue;
+    font-size: 35px;
+    margin: 20px 15px;
+}
+.reporttext{
+	color: cadetblue;
+    font-size: 12px;
+    font-family: emoji;
+    margin: 0px 20px;
+    margin-top: -13px;
+}
+.build{
+height: 80px;
+}
+
+.build:hover {
+  transform: scale(1.2); 
+}
+.build:active{
+    background-color: honeydew;
+     border-color: #c8c8ff;
+}
+.buildIcon{
+	color: cadetblue;
+    font-size: 35px;
+    margin: 20px 15px;
+}
+.buildtext{
+	    color: cadetblue;
+    font-size: 12px;
+    font-family: emoji;
+    margin: 0px 5px;
+    margin-top: -13px;
+}
+.code{
+height: 80px;
+}
+.code:hover {
+  transform: scale(1.2); 
+}
+.code:active{
+    background-color: honeydew;
+     border-color: #c8c8ff;
+}
+.codeIcon{
+	color: cadetblue;
+    font-size: 35px;
+    margin: 20px 15px;
+}
+.codetext{
+	color: cadetblue;
+    font-size: 12px;
+    font-family: emoji;
+    margin: 0px 5px;
+    margin-top: -13px;
+}
+.dashView{
+     
+	    margin: 0px 76px;
+    width: 95%; 
+    background: #c7c7c754;
+    height: 693px;
+}
+.dash-act{
+  color: red;
+}
+.testCount{
+	width: 24%;
+    float: left;
+    height: 170px;
+}
+.testCases{
+	    width: 100%;
+    height: 150px;
+    float: left;
+}
+.testcases{
+	width: 330px;
+    height: 80px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+   background: #fafafa;
+    box-shadow: 1px 1px 10px grey;
+}
+.testPass{
+	      width: 24%;
+    height: 170px;
+    float: left;
+}
+.testpasscount{
+	    width: 100%;
+    height: 150px;
+}
+.testpassed{
+	   width: 330px;
+    height: 80px;
+    margin-left: 27px;
+    margin-top: 30px;
+        background: #fafafa;
+         box-shadow: 1px 1px 10px grey;
+}
+.testIcone{
+	     width: 25%;
+    height: 70px;
+    margin-left: 265px;
+    margin-top: -77px;
+    background: #faebd742;
+     box-shadow: 1px 1px 2px grey;
+}
+.testIcone1{
+	   width: 25%;
+    height: 70px;
+    margin-left: 262px;
+    margin-top: -77px;
+    background: #faebd742;
+    box-shadow: 1px 1px 2px grey;
+}
+.testIcone1:hover {
+  transform: scale(1.2); 
+}
+.testIcone:hover {
+  transform: scale(1.2); 
+} 
+.totaltext{
+      margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+            color: #e64609ba;
+    font-family: monospace;
+}
+.totaltext1{
+      margin-left: 10px;
+    margin-top: 23px;
+    font-size: 20px;
+    font-family: system-ui;
+}
+.counttext1{
+  text-align: center;
+    margin-top: 14px;
+    font-size: 25px;
+    color: #d0d311;
+     font-family: monospace;
+}
+.counttext2{
+  text-align: center;
+    margin-top: 14px;
+    font-size: 25px;
+    color: #4ab162;
+    font-family: monospace;
+}
+.counttext3{
+  text-align: center;
+    margin-top: 14px;
+    font-size: 25px;
+        color: #ff1e33;
+    font-family: monospace;
+
+}
+.counttext4{
+  text-align: center;
+    font-size: 40px;
+    color: #1a2cae;
+     font-family: monospace;
+}
+.contentBody{
+	width: 100%;
+    height: 693px;
+}
+.environment{
+	   width: 34%;
+    height: 300px;
+    float: left;
+}
+.environmentcard{
+	height: 483px;
+    margin-left: 29px;
+       box-shadow: 1px 1px 10px grey;
+}
+.projectname{
+ width: 380px;
+    height: 60px;
+    margin-left: 40px;
+    margin-top: -30px;
+    background: #33c5be;
+    border: 2px #0af6ca;
+    border-radius: 5px;
+        box-shadow: 1px 1px 10px grey;
+}
+.protext{
+      text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+}
+.taskname{
+  width: 380px;
+    height: 60px;
+    margin-left: 38px;
+    margin-top: -30px;
+    background: #fc8e7e;
+    border: 2px #0af6ca;
+    border-radius: 40px;
+        box-shadow: 1px 1px 10px grey;
+}
+.bugname{
+      width: 380px;
+    height: 60px;
+    margin-left: 18px;
+    margin-top: -30px;
+    background: #68d79e;
+    border: 2px #0af6ca;
+    border-radius: 40px;
+        box-shadow: 1px 1px 10px grey;
+}
+.summary{
+	    width: 35%;
+    height: 300px;
+    margin-left: 472px;
+}
+.summarycard{
+	    margin-left: 35px;
+    height: 200px;
+    width: 455px;
+        box-shadow: 1px 1px 10px grey;
+}
+.mileStone{
+	            width: 33%;
+    height: 300px;
+    float: left;
+    margin-left: 457px;
+    margin-top: -128px;
+}
+.mileStonecard{
+	      width: 417px;
+    height: 200px;
+    margin-left: 31px;
+        box-shadow: 1px 1px 10px grey;
+}
+.environmentname{
+     width: 429px;
+    height: 75px;
+    margin-left: 14px;
+    margin-top: -30px;
+    background: #FC940D;
+    border-radius: 5px;
+        box-shadow: 1px 1px 10px grey;
+}
+.envtext{
+      text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+}
+.envtext1{
+     text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+}
+.reportname{
+           width: 380px;
+    height: 60px;
+    margin-left: 40px;
+    margin-top: -30px;
+    background: #FC9714;
+    border: 2px #0af6ca;
+    border-radius: 40px;
+        box-shadow: 1px 1px 10px grey;
+}
+.milestonename{
+          width: 403px;
+    height: 60px;
+    margin-left: 7px;
+    margin-top: -30px;
+    background: #48A34C;
+    border-radius: 40px;
+        box-shadow: 1px 1px 10px grey;
+}
+.Row3{
+    width: 100%;
+    margin-top: 100px;
+    height: 293px;
+}
+.project{
+      width: 33%;
+    float: left
+}
+.projectcard{
+      width: 461px;
+    height: 240px;
+    margin-left: 30px;
+    margin-top: -60px;
+    float: left;
+        box-shadow: 1px 1px 10px grey;
+}
+.task{
+    width: 35%;
+    margin-left: 491px;
+    height: 293px;
+}
+.taskcard{
+             width: 455px;
+    height: 240px;
+    margin-left: 16px;
+    margin-top: -60px;
+    float: left;
+        box-shadow: 1px 1px 10px grey;
+}
+.bug{
+     width: 33%;
+    height: 250px;
+    margin-left: 933px;
+}
+.bugcard{
+      width: 423px;
+    height: 240px;
+    margin-top: -281px;
+    float: left;
+    margin-left: 45px;
+        box-shadow: 1px 1px 10px grey;
+}
+.reptype{
+      height: 30px;
+    width: 120px;
+    background: #4966665e;
+    text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+      margin-left: 50px;
+          margin-top: 20px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

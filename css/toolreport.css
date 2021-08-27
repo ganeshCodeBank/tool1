@@ -1,0 +1,144 @@
+.reportview{
+	margin: 0px 76px;
+    width: 95%;
+    background: #c7c7c754;
+    height: 693px;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+}
+.cardcontain{
+	      width: 60%;
+    padding: 10px;
+    height: 693px;
+    margin-left: 10px;
+    float: left;
+}
+.reportheder{
+	       width: 100%;
+    height: 110px;
+    border: 2px;
+    border-radius: 8px;
+    background: #fafafa;
+    box-shadow: 0px 4px 10px grey;
+}
+.repBody{
+	width: 100%;
+    height: 510px;
+    border: 2px;
+    border-radius: 8px;
+    margin-top: 1px;
+    background: #fafafa;
+    box-shadow: 0px 4px 10px grey;
+}
+.repname{
+	  padding: 15px 20px;
+    margin-top: 20px;
+    height: 100px;
+}
+.repnameFont{
+	    font-size: 28px;
+    font-family: Verdana;
+    color: #706969e0;
+}
+.reptd{
+	     position: absolute;
+    width: 64%;
+    margin-left: -35px;
+    height: 480px;
+}
+.chartContain{
+	    width: 40%;
+    height: 693px;
+    margin-left: 865px;
+}
+.passPer{
+	width: 100%;
+    height: 347px;
+}
+.failper{
+	width: 100%;
+    height: 346px;
+}
+.perChart1{
+	    margin-top: 3px;
+    margin-left: 22px;
+    width: 538px;
+    height: 287px;
+     border: 1px;
+    background: #fafafa;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px grey;
+}
+.perChart{
+	      position: absolute;
+    margin-top: 33px;
+    margin-left: 22px;
+    width: 538px;
+    height: 300px;
+    border: 1px;
+    background: #fafafa;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px grey;
+}
+.pastitle{
+	      width: 100%;
+    height: 45px;
+    text-align: center;
+}
+.pasline{
+	    width: 100%;
+    height: 1px;
+    background: #8080803b;
+}
+.pieimg{
+	width: 100%;
+    height: 240px;
+}
+.buildview{
+	margin: 0px 76px;
+    width: 95%;
+    position: absolute;
+    background: #c7c7c754;
+    height: 693px;
+    display: none;
+}
+.codeBox{
+	    width: 100%;
+    height: 693px;
+    float: left;
+}
+.uploadBox{
+	       position: absolute;
+    height: 470px;
+    margin-left: 300px;
+    margin-top: 35px;
+    border: 2px;
+    width: 60%;
+    background: #ffffff;
+    border-radius: 10px;
+     box-shadow: 0px 4px 10px grey;	
+}
+.drag{
+	width: 95%;
+    height: 425px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px dashed #d9d3d3;
+}
+.upBtn{
+	position: absolute;
+    width: 60%;
+    height: 80px;
+    margin-top: 520px;
+    margin-left: 300px;
+}
+.btn{
+	    margin-left: 337px;
+    width: 250px;
+    height: 60px;
+    background: cadetblue;
+    color: #ededed;
+    font-size: 20px;
+    box-shadow: 0px 5px 5px grey;
+}
